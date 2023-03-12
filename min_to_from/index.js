@@ -4,12 +4,6 @@ desplazando hacia atrás los elementos que estaban antes. De lo contrario, no ca
  Como siempre, haz esto sin usar funciones integradas. */
 
 const mat = [4, 2, 1, 3, 5];
-let min = 0;
-for (let i = 0; i < mat.length; i++) {
-    const element = mat[i];
-
-}
-
 
 const merge = (leftArr, rightArr) => {
     arraySorted = [];
@@ -41,6 +35,4 @@ const mergeSort = (array) => {
     return merge(leftArraySorted, rightArraySorted);
 }
 
-const array = [1, 2, 100, 50, 20, 10, 80, 88, 200, 2, 9, 9, 12, 13, 19];
-
-console.log(mergeSort(array));
+console.log(mergeSort(mat));
