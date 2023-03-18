@@ -5,10 +5,10 @@ Dada una matriz de cadenas y un valor (longitud), elimina las cadenas más corta
 
 */
 
-string = "Lorem ipsum dolor sit amet, consectet";
+array = ["Lorem", "ipsum", "dolor", "sit", "amet", "consectet"];
 
-const removeString = (string, length) => {
-    return string.split(' ').filter(word => word.length > length)
+const removeString = (array, length) => {
+    return array.filter(word => word.length > length)
 }
 
-console.log(removeString(string, 3));
+console.log(removeString(array, 4));
